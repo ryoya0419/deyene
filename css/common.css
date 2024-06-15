@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* 
+ブレイクポイント
+SP ~ 619px
+tab 620px~949px
+PC 950px~
+*/
+
+/* ===========
+変数宣言
+===========*/
+:root {
+    --font_weight_xs: 100;
+    --font_weight_s: 300;
+    --font_weight_m: 400;
+    --font_weight_l: 500;
+    --font_size_s: 12px;
+    --font_size_m: 18px;
+    --font_size_l: 28px;
+    --main_color: #f5f5f7;
+    --font_color: #1d1d1f;
+    --gutter_main_sp: 32px;
+    --gutter_main_pc: 64px;
+    --gutter_content_sp: 16px;
+    --gutter_content_pc: 32px;
+    --gutter_side_sp: 32px;
+}
+
+body {
+    background-color: var(--main_color);
+    color: var(--font_color);
+}
+
+/* sectionのクラス */
+.contents {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+/* セクション内のh2のクラス */
+.contents_title {
+    text-align: center;
+    font-size: var(--font_size_l);
+    margin-bottom: var(--gutter_content_sp);
+}
+
+img {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font_color);
+}
